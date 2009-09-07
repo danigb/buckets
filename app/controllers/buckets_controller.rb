@@ -1,6 +1,6 @@
 class BucketsController < ApplicationController
   layout 'buckets'
-  
+
   def index
     @buckets = Bucket.all
 

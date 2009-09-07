@@ -5,7 +5,7 @@
 # Make sure the secret is at least 30 characters and all random, 
 # no regular words or you'll be exposed to dictionary attacks.
 ActionController::Base.session = {
-  :key         => '_mediafy_session',
+  :key         => '_buckets_session',
   :secret      => '0b82149aa13152b6d014ceafc8841b6d2ca53d97a4c663b184b8a512822b0437d55b432fc7d79411d1d7c22c52efbcdae4a9bfd620eddc1ab85a58d462cbd3ae'
 }
 
